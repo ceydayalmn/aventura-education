@@ -1,0 +1,59 @@
+html, body
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: rgb(122, 184, 87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 100%;
+}
+
+section.main .content form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 12px;
+
+}
+section.main  .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: rgb(245, 248, 248);
+    box-shadow: -1px -1px 38px -9px rgba(0,0,0,0.75);
+    
+    
+}
+section.main .content form input{
+    border: none;
+    background-color: rgb(238, 237, 237);
+    height: 30px;
+    padding: 8px;
+    width: 250px;
+    
+}
+section.main  .content form button{
+    border: none;
+    background-color: rgb(76, 175, 80);
+    color: aliceblue;
+    height: 40px;
+    width: 262px;
+   
+}
+section.main  .content form a{
+   text-decoration: none;
+   color: rgb(62, 207, 67);
+}
+section.main  .content form .name{
+    color: rgb(175, 175, 175);
+    font-size: 12px;
+    
+    
+}
+
+
