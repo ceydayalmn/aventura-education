@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JAVASCRİPT</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+      var count = 0;// Değer atama
+
+      function increment() { // Değeri artırma fonksiyonu
+        count++;
+        document.getElementById("count").innerHTML = count; // Artırılmış count değeri
+      }
+
+      function decrement() { //Değeri azaltma fonksiyonu
+        count--;
+        document.getElementById("count").innerHTML = count; // Azaltılmış Count değeri
+      }
+    </script>
+  </head>
+  <body>
+    <button onclick="increment()"> + </button> <!-- "+" Butonuna basıldığında devreye girer--> 
+    <span id="count">0</span>
+    <button onclick="decrement()"> - </button> <!-- "-" Butonuna basıldığında devreye girer -->
+  </body>
+</html>
