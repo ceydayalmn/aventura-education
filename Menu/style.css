@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(51, 153, 153);
+    display: flex;
+    justify-content: center;
+  }
+  nav{
+    background-color:rgba(3, 3, 3, 0.1); 
+  }
+  .nav-links{
+    list-style: none;
+    display: flex;
+  }
+  .nav-links a {
+    color: rgb(238, 235, 235);
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px 20px;
+   
+  }
+
+  
