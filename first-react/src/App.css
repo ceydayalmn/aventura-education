@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:'Times New Roman', Times, serif
+}
+body{
+  background-color: rgb(235, 227, 218);
+}
+.navbar{
+  background-color: rgb(252, 70, 107);
+  height: 5vh;
+  display:flex;
+  gap: 2rem;
+  align-items: center;
+  padding: 1rem;
+}
+.sidebar{
+ background:-webkit-linear-gradient(rgb(252, 70, 107),rgb(57, 55, 192));
+  height: 90vh;
+  color: rgb(34, 20, 1);
+  top: 0;
+  left: 0;
+
+  width: 180px;
+}
+.sidebar li{
+  list-style: none;
+  padding: 1rem 2rem;
+  color: black;
+  border-bottom: 1px solid ;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 700;
+
+}
+.sidebar li:hover{
+  background-color: rgb(245, 195, 195);
+}
+.icon{
+  cursor: pointer;
+  color: aliceblue;
+  font-size: 30px;
+}
